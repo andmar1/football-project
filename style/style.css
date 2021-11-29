@@ -1,0 +1,65 @@
+body{
+    background-image: url('/img/stadium.jpg');
+    font-family: 'Trebuchet MS'; 
+}
+
+.title{
+    font-family: Georgia;
+    color: yellowgreen;
+    margin-left: 100px;
+}
+
+.subtitle{
+    font-family: Georgia;
+    color: yellow;
+    margin-left: 150px;
+}
+
+.tabla-liga{
+    background-color: #556b2f;
+    opacity: 75%;
+    margin: 80px auto;
+    border-spacing: 0;
+    /* border-collapse: separate; */
+    
+    
+}
+/* celdas */
+th, td {
+    border: 1px solid white;
+    padding: 5px;
+    margin: 0px;
+}
+  
+.header-bold{
+    font-weight: bold;
+    text-align: center;
+    color: yellowgreen;
+    font-size: large;
+}
+
+table tr td{
+    color: white;
+    /* centre los elementos, ya que se veia mejor */
+    text-align: center; 
+}
+
+.div-title{
+    margin: auto;
+    background-color: rgb(83, 83, 72);
+    opacity: 5;
+    width: 95%;
+}
+
+.name-team{
+    text-align: left;
+}
+
+.last-text{
+    background-color: black;
+    /* No supe como quitar la herencia de la opacidad */
+    opacity: none;
+    color: darkgreen;
+    font-size: small;
+    text-align: left;
+}
